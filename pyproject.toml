@@ -1,0 +1,17 @@
+[project]
+name = "day5"
+version = "0.1.0"
+description = "Automotive RAG Project"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "faiss-cpu",
+    "gradio>=6.20.0",
+    "groq",
+    "numpy",
+    "pandas>=3.0.3",
+    "pymupdf",
+    "python-dotenv",
+    "sentence-transformers",
+]
